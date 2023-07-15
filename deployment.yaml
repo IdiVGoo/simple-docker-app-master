@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: spring-boot-k8s
-          image: idivgoo/springboot-k8s-example:1.0
+          image: aeka/springboot-k8s-example:1.0
           imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 8080
